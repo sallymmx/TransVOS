@@ -1,0 +1,9 @@
+__pycahce__/
+.idea/
+.vscode
+
+logs/
+results/
+tmp/
+checkpoints/
+weights/
