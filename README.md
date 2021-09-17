@@ -1,6 +1,6 @@
 # Codes for "TransVOS: Video Object Setmentation with Transformers"
 
-This repository contains the codes for [TransVOS: Video Object Setmentation with Transformers](https://arxiv.org/abs/2106.00588).
+This repository contains the official codes for [TransVOS: Video Object Setmentation with Transformers](https://arxiv.org/abs/2106.00588).
 ## Requirements
 - torch >= 1.6.0
 - torchvison >= 0.7.0
