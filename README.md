@@ -70,7 +70,7 @@ The test results will be saved as indexed png file at `${results}/`.
 Additionally, you can modify some setting parameters in `config.py` to change configuration.
 
 # Acknowledgement
-This codebase borrows the codes from [official AFB-URR repository](https://github.com/xmlyqing00/AFB-URR) and [official DETR repository](https://github.com/facebookresearch/detr).
+This codebase is built upon [official AFB-URR repository](https://github.com/xmlyqing00/AFB-URR) and [official DETR repository](https://github.com/facebookresearch/detr).
 
 # Citation
 ```
