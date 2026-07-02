@@ -1,4 +1,4 @@
-# Codes for "TransVOS: Video Object Setmentation with Transformers"
+# Codes for "TransVOS: Video Object Segmentation with Transformers"
 
 This repository contains the official codes for [TransVOS: Video Object Setmentation with Transformers](https://arxiv.org/abs/2106.00588).
 ## Requirements
@@ -61,13 +61,13 @@ To eval the TransVOS network on (DAVIS16/17), modify `$cfg.DATA.VAL.DATASET_NAME
 ```bash
 python eval.py --checkpoint ${./checkpoints/*.pth.tar}
 ```
-To test the TransVOS network on (DAVIS17 test-dev/youTube-vos), modify `$cfg.DATA.TEST.DATASET_NAME`, then run following command
+To test the TransVOS network on (DAVIS17 test-dev/youTube-vos), modify `$cfg.DATA.TEST.DATASET_NAME`, then run the following command
 ```bash
 python test.py --checkpoint ${./checkpoints/*.pth.tar}
 ```
-The test results will be saved as indexed png file at `${results}/`.
+The test results will be saved as an indexed PNG file at `${results}/`.
 
-Additionally, you can modify some setting parameters in `config.py` to change configuration.
+Additionally, you can modify some setting parameters in `config.py` to change the configuration.
 
 # Acknowledgement
 This codebase is built upon [official AFB-URR repository](https://github.com/xmlyqing00/AFB-URR) and [official DETR repository](https://github.com/facebookresearch/detr).
@@ -78,5 +78,5 @@ This codebase is built upon [official AFB-URR repository](https://github.com/xml
   title={TransVOS: Video Object Segmentation with Transformers},
   author={Mei, Jianbiao and Wang, Mengmeng and Lin, Yeneng and Liu, Yong},
   journal={arXiv preprint arXiv:2106.00588},
-  year={2021}
+  year={2021} 
 }
